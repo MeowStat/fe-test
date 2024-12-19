@@ -1,0 +1,8 @@
+.userContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+}
