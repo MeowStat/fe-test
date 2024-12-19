@@ -1,5 +1,7 @@
 # Technical Test: Web App
 
+[Website](https://fe-test-sigma.vercel.app/)
+
 This project implements a web application similar to the template provided [here](https://gi-pf.vercel.app/), following the requirements outlined in the technical assessment. It integrates APIs for data fetching and avatar generation, using the Refine framework (React Query + Ant Design).
 
 ## Features
@@ -78,6 +80,10 @@ To build the project for production:
 Using npm:
 ```bash
 npm run build
+```
+or
+```bash
+vite build
 ```
 
 The built files will be in the `dict` folder.
