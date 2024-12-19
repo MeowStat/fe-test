@@ -47,8 +47,8 @@ This project implements a web application similar to the template provided [here
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/MeowStat/fe-test.git
+   cd fe-test
    ```
 
 2. Install dependencies:
@@ -58,21 +58,6 @@ This project implements a web application similar to the template provided [here
    npm install
    ```
 
-   Or using yarn:
-   ```bash
-   yarn install
-   ```
-
-## Environment Variables
-
-If the project requires environment variables, create a `.env` file in the root directory and add the following:
-
-```
-REACT_APP_API_BASE_URL=https://jsonplaceholder.typicode.com
-```
-
-Replace `https://jsonplaceholder.typicode.com` with the appropriate API base URL if necessary.
-
 ## Usage
 
 ### Development Server
@@ -81,15 +66,10 @@ Start the development server:
 
 Using npm:
 ```bash
-npm start
+npm run dev
 ```
 
-Using yarn:
-```bash
-yarn start
-```
-
-The application will be available at [http://localhost:3000](http://localhost:3000).
+The application will be available at [http://localhost:5173](http://localhost:5173).
 
 ### Build
 
@@ -100,75 +80,24 @@ Using npm:
 npm run build
 ```
 
-Using yarn:
-```bash
-yarn build
-```
-
-The built files will be in the `build` folder.
-
-### Linting
-
-Run linting to check for code style issues:
-
-Using npm:
-```bash
-npm run lint
-```
-
-Using yarn:
-```bash
-yarn lint
-```
-
-### Testing
-
-Run tests (if applicable):
-
-Using npm:
-```bash
-npm test
-```
-
-Using yarn:
-```bash
-yarn test
-```
+The built files will be in the `dict` folder.
 
 ## Project Structure
 
 ```plaintext
 ├── src
-│   ├── components   # Reusable components
-│   ├── pages         # Application pages
-│   ├── utils         # Utility functions
-│   ├── App.js        # Main application component
-│   └── index.js      # Entry point
+│   ├── components 
+│   ├── pages         
+│   ├── App.jsx
+│   └── index.jsx     
 ├── public
-│   └── index.html    # HTML template
-├── .env              # Environment variables
-├── package.json      # Project configuration
-├── README.md         # Project documentation
-└── ...
+│   |── favicon.ico
+|   └── manifest.json  
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json      
+├── README.md        
+└── vite.config.js
 ```
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add some feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
